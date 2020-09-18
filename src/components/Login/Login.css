@@ -1,0 +1,136 @@
+.loginSection {
+	padding: 100px 0;
+}
+
+.loginSection .formHandling {
+	max-width: 500px;
+	margin: 0 auto;
+	background: #3a353533;
+	border: 1px solid #ababab;
+	border-radius: 4px;
+	padding: 40px 50px;
+}
+
+.facebookLogin {
+	text-align: center;
+}
+.facebookLogin .btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #c7c7c7;
+	border-radius: 57px;
+}
+
+.facebookLogin .btn {
+	width: 461px;
+	margin: 0 auto;
+	height: 51px;
+	text-align: center;
+	padding: 8px;
+	position: relative;
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-items: baseline;
+	margin-top: 20px;
+}
+
+.form-divider p {
+	display: inline-block;
+	background: white;
+	position: relative;
+	margin-bottom: 0;
+}
+
+.form-divider {
+	max-width: 400px;
+	margin: 24px auto;
+	position: relative;
+	display: grid;
+	place-items: center;
+}
+
+.form-divider:before,
+.form-divider:after {
+	content: "";
+	position: absolute;
+	width: calc(50% - 30px);
+	height: 1px;
+	background: #aaa;
+}
+.form-divider:before {
+	left: 0;
+}
+.form-divider:after {
+	right: 0;
+}
+
+.formHandling .form-control {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000;
+	border: 0;
+	border-bottom: 1px solid #c5c5c5;
+	border-radius: 0;
+	padding-left: 0;
+	height: 45px;
+}
+
+.formHandling .form-group {
+	margin-bottom: 34px;
+}
+
+.formHandling .form-group.password {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formHandling .form-group a,
+.formHandling a {
+	color: var(--primary);
+	text-decoration: underline;
+}
+
+.formHandling .btn-logintoggle {
+	font-weight: normal;
+	color: var(--primary);
+	text-decoration: underline;
+	padding: 0;
+}
+
+.formHandling .btn-logintoggle:hover {
+	color: var(--primary);
+	text-decoration: underline;
+}
+
+.formHandling .register-login {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.formHandling h3 {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 30px;
+}
+
+.loginSection .alert {
+	max-width: 570px;
+	margin-bottom: 30px;
+	display: inline-block;
+	text-align: center;
+}
+
+.error-msg {
+	text-align: left;
+	color: red;
+}
